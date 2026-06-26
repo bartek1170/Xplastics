@@ -1,0 +1,187 @@
+rtspAddress: 0.0.0.0:6554
+rtpAddress: :6000
+rtcpAddress: :6001
+rtmpAddress: :6935
+hlsAddress: :6888
+webrtcAddress: :6889
+webrtcLocalUDPAddress: :6189
+srtAddress: :6890
+moq: no
+
+paths:
+  kamera_06_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 6 sub 06
+  kamera_06_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 6 main 06
+  kamera_23_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 23 sub 23
+  kamera_23_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 23 main 23
+  kamera_24_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 24 sub 24
+  kamera_24_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 24 main 24
+  kamera_26_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 26 sub 26
+  kamera_26_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 26 main 26
+  kamera_27_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 27 sub 27
+  kamera_27_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 27 main 27
+  kamera_30_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 30 sub 30
+  kamera_30_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 30 main 30
+  kamera_31_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 31 sub 31
+  kamera_31_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 31 main 31
+  kamera_32_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 32 sub 32
+  kamera_32_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 32 main 32
+  kamera_33_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 33 sub 33
+  kamera_33_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 33 main 33
+  kamera_34_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 34 sub 34
+  kamera_34_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 34 main 34
+  kamera_44_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 44 sub 44
+  kamera_44_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 44 main 44
+  kamera_45_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 45 sub 45
+  kamera_45_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 45 main 45
+  kamera_52_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 52 sub 52
+  kamera_52_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 52 main 52
+  kamera_53_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 53 sub 53
+  kamera_53_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 53 main 53
+  kamera_58_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 58 sub 58
+  kamera_58_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 58 main 58
+  kamera_59_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 59 sub 59
+  kamera_59_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 59 main 59
+  kamera_62_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 62 sub 62
+  kamera_62_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 62 main 62
+  kamera_63_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 63 sub 63
+  kamera_63_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 63 main 63
+  kamera_67_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 67 sub 67
+  kamera_67_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 67 main 67
+  kamera_86_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 86 sub 86
+  kamera_86_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 86 main 86
+  kamera_182_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 182 sub 182
+  kamera_182_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 182 main 182
+  kamera_184_sub_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 184 sub 184
+  kamera_184_main_norm:
+    source: publisher
+    runOnInitRestart: yes
+    runOnInit: /home/bartek/proxy_kamer_test/start_ffmpeg_gpu.sh 184 main 184
